@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1525357035 source:c:\users\afpa1797\documents\tp2 pratique initexfac\exercice 1 b\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1526974633 source:u:\tp\tp foncchaine\ex 5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

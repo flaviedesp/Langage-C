@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1525353000 source:c:\users\afpa1797\documents\tp1 pratique initex structure logique\exercice 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1525362632 source:c:\users\afpa1797\documents\tp2 pratique initexfac\exercice 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

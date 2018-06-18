@@ -1,0 +1,6 @@
+LISTE DES EMPLOYES
+
+  1     BRUANT   Aristide     1
+  3        OIE   Bernache     5
+  4    CORBEAU      Freux    10
+  7        PIE    Grieche     2

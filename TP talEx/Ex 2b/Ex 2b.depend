@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1526312424 source:u:\tp\tp talex\ex 2b\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

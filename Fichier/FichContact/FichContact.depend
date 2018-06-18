@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1527240038 source:u:\tp\fichier\fichcontact\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"U:\TP\Utilitaire\entetes\BiblChaineReference\chaines.h"
+
+1508504752 u:\tp\utilitaire\entetes\biblchainereference\chaines.h
+

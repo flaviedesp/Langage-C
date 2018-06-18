@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1526388117 source:u:\tp\tp talex\ex tri tabl\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1525338377 source:c:\users\afpa1797\documents\tp1 pratique initex structure logique\initex2\main.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+

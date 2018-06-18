@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1526630831 source:u:\tp\tp foncfrac\ex 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

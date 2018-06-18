@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1526978848 source:u:\tp\tp structure type fraction\ex fraction\main.c
+	<stdio.h>
+	<stdlib.h>
+

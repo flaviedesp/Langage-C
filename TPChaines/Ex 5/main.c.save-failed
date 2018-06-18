@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+    char chaine[81];
+    char chaineRemplace[81];
+    char nouveaumot[81];
+    int position = 0; //position de remplacement dans la chaine
+    int indice = 0; //indice de la chaine
+    int indiceR = 0; //indice de la sous chaine
+
+    printf("saisir une chaine de caractere : \n");
+    gets(chaine);
+    printf("saisir la chaine de remplacement : \n");
+    gets(chaineRemplace);
+    printf("saisir la position de la chaine de remplacement (entier): \n");
+    scanf("%d", &position);
+
+    while(indice < position - 1)
+    {
+        indice++;
+    }
+    indice = 0;
+    while ( indice < strlen(chaineRemplace))
+    {
+        nouveaumot[indiceR] = chaineRemplace[indice];
+        indiceR++;
+    }
+
+    /*  for (indice = 0; indice< position-1; indice++)
+      {
+          nouveaumot[indiceR]=chaine[indice];
+          indiceR++;
+      }
+      for (indice = 0; indice< strlen(chaineRemplace); indice++)
+      {
+          nouveaumot[indiceR]=chaineRemplace[indice];
+          indiceR++;
+      }*/
+
+    printf(" %s \n\n",nouveaumot);
+    puts(nouveaumot);
+
+    return 0;
+}

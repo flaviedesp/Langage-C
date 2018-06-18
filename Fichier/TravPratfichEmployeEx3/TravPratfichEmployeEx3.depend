@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1527170963 source:u:\tp\fichier\travpratfichemployeex3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"C:\Users\afpa1797\Documents\referenceC\entetes\agences.h"
+
+1524143714 c:\users\afpa1797\documents\referencec\entetes\agences.h
+

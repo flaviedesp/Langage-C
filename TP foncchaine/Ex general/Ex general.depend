@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1527003231 source:u:\tp\tp foncchaine\ex general\main.c
+	<stdio.h>
+	<string.h>
+	"chainegeneral.h"
+
+1527003032 u:\tp\tp foncchaine\ex general\chainegeneral.h
+
+1527003289 source:u:\tp\tp foncchaine\ex general\chaine.c
+	<stdio.h>
+	<string.h>
+	"chainegeneral.h"
+

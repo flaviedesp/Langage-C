@@ -1,0 +1,88 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "C:\Users\afpa1797\Documents\referenceC\entetes\agences.h"
+
+typedef struct
+{
+    int numero;        //numero de l'employe
+    char nom[51];      //nom de l'employe
+    char prenom[41];   //prenom de l'employe
+    int numeroAgence;  //numero d'agence de l'employe
+} EMPLOYE;
+
+int main()
+{
+    FILE* fichier;
+    FILE* nomAgence;
+    EMPLOYE employe;
+    AGENCE agence;
+    int retour = 0;
+    int coderetour = 0;
+
+    /*------------------------------*/
+    /*----Ouverture des fichiers----*/
+    /*------------------------------*/
+
+    fichier = fopen("U:\\TP\\Fichier\\TravPratfichEmploye\\employe", "r+b");
+    if(fichier == 0)
+    {
+        printf("Erreur d'ouverture du fichier employe");
+        exit(0);
+    }
+
+    nomAgence = fopen("U:\\TP\\Fichier\\agence\\agences", "rb");
+
+    if(nomAgence ==0)
+    {
+        printf("erreur de l'ouverture du fichier agence");
+        exit (1);
+    }
+
+    /*-------------------------*/
+    /*----Ecriture du titre----*/
+    /*-------------------------*/
+    printf("liste des employes \n\n");
+
+    fread(&employe, sizeof(EMPLOYE), 1, fichier);
+
+    /*-------------------------------------------------*/
+    /*---- boucle pour affichage des noms d'agences----*/
+    /*-------------------------------------------------*/
+
+    while(!feof(fichier))
+    {
+        coderetour = fseek(nomAgence, agence.numero * sizeof(AGENCE),SEEK_SET);
+        fread(&agence, sizeof(AGENCE), employe.numeroAgence, nomAgence);
+
+        if(coderetour != 0 )
+        {
+            printf("%d : agence inconnue \n", agence.numero);
+        }
+        else
+        {
+            fread(&agence, sizeof(AGENCE), employe.numeroAgence, nomAgence);
+            retour = chercheAgence(employe.numeroAgence,nomAgence);
+            printf("\n\n%d\n\n", retour);
+
+            fread(&agence,sizeof(AGENCE), employe.numeroAgence, nomAgence);
+
+            // agence.numero = retour;
+
+
+            /* if(agence.nom[0] != 0)
+             {
+
+
+             }*/
+
+        }
+        printf("%3d   %8s   %8s   Nagence :%d    (%3s)\n", employe.numero, employe.nom, employe.prenom,employe.numeroAgence, agence.nom);
+        fread(&employe, sizeof(EMPLOYE), 1, fichier);
+    }
+    fclose(fichier);
+    fclose(nomAgence);
+
+
+    return 0;
+}

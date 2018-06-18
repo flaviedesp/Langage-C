@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1526483111 source:u:\tp\tpchaines\ex 1\ex 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1526557878 source:u:\tp\tpchaines\ex 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

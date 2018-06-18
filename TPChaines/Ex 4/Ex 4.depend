@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1526539706 source:u:\tp\tpchaines\ex 4\ex 4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

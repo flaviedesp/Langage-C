@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1527062269 source:u:\tp\bibliotheque\biblchainesreference\main.c
+	<stdio.h>
+	<string.h>
+	"U:\TP\Utilitaire\entetes\BiblChaineReference\chainegeneral.h"
+
+1527003032 u:\tp\utilitaire\entetes\biblchainereference\chainegeneral.h
+
